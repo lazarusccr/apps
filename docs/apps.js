@@ -28,10 +28,10 @@ var apps = [
         tags: ''
     },
     {
-        name: 'Advanced Wget GUI (AWWG)',
+        name: 'Advanced Wget GUI (AWGG)',
         description: 'Cross platform and multilanguage download manager',
         url: 'https://sites.google.com/site/awggproject/',
-        icon: 'awwg.png',
+        icon: 'awgg.png',
         tags: ''
     },
     {
