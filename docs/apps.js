@@ -8,7 +8,7 @@ var apps = [
     },
     {
         name: 'Greenfish Icon Editor Pro',
-        description: 'Powerful open source image editor for creating icons, cursors, animations and icon libraries',
+        description: 'Powerful image editor for creating icons, cursors, animations and icon libraries',
         url: 'http://greenfishsoftware.org/gfie.php#apage',
         icon: 'greenfishiconeditor.png',
         tags: '2d, editor, paint, photo, png, jpg, icon'
@@ -29,7 +29,7 @@ var apps = [
     },
     {
         name: 'Advanced Wget GUI (AWGG)',
-        description: 'Cross platform and multilanguage download manager',
+        description: 'Download manager',
         url: 'https://sites.google.com/site/awggproject/',
         icon: 'awgg.png',
         tags: ''
@@ -43,7 +43,7 @@ var apps = [
     },
     {
         name: 'CudaText',
-        description: 'Cross platform text editor with syntax highlighting and code completion',
+        description: 'Text editor with syntax highlighting and code completion',
         url: 'http://uvviewsoft.com/cudatext/',
         icon: 'cudatext.png',
         tags: 'code, development'
@@ -54,6 +54,20 @@ var apps = [
         url: 'https://sourceforge.net/projects/lazlock/',
         icon: 'lazlock.png',
         tags: 'security'
+    },
+    {
+        name: 'Double Commander',
+        description: 'File manager with two panels side by side',
+        url: 'https://doublecmd.sourceforge.io/',
+        icon: 'doublecommander.png',
+        tags: 'explorer'
+    },
+    {
+        name: 'PeaZip',
+        description: 'File archiver utility, based on technologies of 7-Zip, p7zip, FreeArc, PAQ, and PEA projects',
+        url: 'http://www.peazip.org/',
+        icon: 'peazip.png',
+        tags: 'compression'
     }
 ]
 
