@@ -68,6 +68,34 @@ var apps = [
         url: 'http://www.peazip.org/',
         icon: 'peazip.png',
         tags: 'compression'
+    },
+    {
+        name: 'LazEdit',
+        description: 'General text editor with syntax highlighting and tools to help edit HTML',
+        url: 'http://wiki.lazarus.freepascal.org/LazEdit',
+        icon: '',
+        tags: 'code, development'
+    },
+    {
+        name: 'MiniEdit',
+        description: 'Application for editing files like PHP, HTML, CSS, Python, D, C and Pascal',
+        url: 'https://github.com/parmaja/miniedit',
+        icon: 'miniedit.png',
+        tags: 'code, text, editor, development'
+    },
+    {
+        name: 'Virtual Magnifying Glass',
+        description: 'Screen magnification tool',
+        url: 'http://magnifier.sourceforge.net/',
+        icon: 'virtualmagnifyingglass.png',
+        tags: 'zoom, accessibility'
+    },
+    {
+        name: 'OvoPlayer',
+        description: 'Music manager and player',
+        url: 'http://ovoplayer.altervista.org/home',
+        icon: 'ovoplayer.png',
+        tags: 'multimedia, audio, sound'
     }
 ]
 
