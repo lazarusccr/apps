@@ -20,7 +20,7 @@
         <md-content style="max-width: 800px; margin: auto; padding: 10px;">
             <md-input-container class="md-block" flex-gt-sm>
                 <label>Search by name, description and tags</label>
-                <input ng-model="ac.search" ng-change="ac.filter()">
+                <input spellcheck="false" ng-model="ac.search" ng-change="ac.filter()">
             </md-input-container>
             <md-list flex>
                 <md-list-item class="md-2-line" ng-click="ac.open(app.url)" ng-repeat="app in ac.apps_filtered">
