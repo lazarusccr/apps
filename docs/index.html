@@ -14,7 +14,7 @@
             <span class="md-display-2" style="text-align: center; padding-top: 30px;">Lazarus</span>
         </md-toolbar>
         <div flex style="text-align: center; padding-top: 30px;" ng-cloak>
-            <span class="md-display-1">Apps built on Lazarus</span>
+            <span class="md-display-1">Apps built with Lazarus</span>
             <p>We currently have {{ac.apps.length}} apps in our registry.</p>
         </div>
         <md-content style="max-width: 800px; margin: auto; padding: 10px;">
@@ -24,7 +24,7 @@
             </md-input-container>
             <md-list flex>
                 <md-list-item class="md-2-line" ng-click="ac.open(app.url)" ng-repeat="app in ac.apps_filtered">
-                    <img ng-src="./{{app.icon}}" class="md-avatar" alt="{{app.name}}" />
+                    <img ng-src="./{{app.icon}}" class="md-avatar" style="width: 60px; height: 60px" alt="{{app.name}}" />
                     <div class="md-list-item-text">
                         <h3>{{app.name}}</h3>
                         <p>{{app.description}}</p>
