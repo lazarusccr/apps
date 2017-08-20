@@ -2,7 +2,7 @@ var apps = [
     {
         name: 'LazPaint',
         description: 'Raster image editor with layers, tools and filters',
-        url: 'https://github.com/bgrabitmap/lazpaint',
+        url: 'http://bgrabitmap.github.io/lazpaint/',
         icon: 'lazpaint.png',
         tags: '3d, 2d, editor, paint, photo, png, jpg'
     },
