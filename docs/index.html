@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <title>Apps | Lazarus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+</head>
+
+<body ng-app="LazarusApps" ng-cloak>
+
+    <div ng-controller="AppsController as ac">
+        <md-toolbar class="md-tall">
+            <span class="md-display-2" style="text-align: center; padding-top: 30px;">Lazarus</span>
+        </md-toolbar>
+        <div flex style="text-align: center; padding-top: 30px;" ng-cloak>
+            <span class="md-display-1">Apps built on Lazarus</span>
+            <p>We currently have {{ac.apps.length}} apps in our registry.</p>
+        </div>
+        <md-content style="max-width: 800px; margin: auto; padding: 10px;">
+            <md-input-container class="md-block" flex-gt-sm>
+                <label>Search by name, description and tags</label>
+                <input ng-model="ac.search" ng-change="ac.filter()">
+            </md-input-container>
+            <md-list flex>
+                <md-list-item class="md-2-line" ng-click="ac.open(app.url)" ng-repeat="app in ac.apps_filtered">
+                    <img ng-src="./{{app.icon}}" class="md-avatar" alt="{{app.name}}" />
+                    <div class="md-list-item-text">
+                        <h3>{{app.name}}</h3>
+                        <p>{{app.description}}</p>
+                    </div>
+                </md-list-item>
+            </md-list>
+        </md-content>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./apps.js"></script>
+</body>
+
+</html>
