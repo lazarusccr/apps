@@ -73,7 +73,7 @@ var apps = [
         name: 'LazEdit',
         description: 'General text editor with syntax highlighting and tools to help edit HTML',
         url: 'http://wiki.lazarus.freepascal.org/LazEdit',
-        icon: '',
+        icon: 'lazarus.png',
         tags: 'code, development'
     },
     {
