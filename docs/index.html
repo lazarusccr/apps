@@ -8,9 +8,9 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 </head>
 
-<body ng-app="LazarusApps" ng-cloak>
+<body ng-app="LazarusApps" ng-controller="AppsController as ac">
 
-    <div ng-controller="AppsController as ac">
+    <div ng-cloak>
         <md-toolbar class="md-tall">
             <span class="md-display-2" style="text-align: center; padding-top: 30px;">Lazarus</span>
         </md-toolbar>
@@ -36,6 +36,14 @@
                 </a>
             </md-list>
         </md-content>
+    </div>
+    <div ng-show="false" style="padding: 20px;">
+        <h1>Welcome to the showcase of Apps made with Lazarus!</h1>
+        <p>This website uses JavaScript for loading the list of apps and the search box.
+        </p>
+        <p>This site does not use tracking tools and analytics, this site has no ads. You can check it yourself!</p>
+        <p>Just you need to whitelist this site url and ajax.googleapis.com, that's a safe site property of Google that gives
+            us the tools to make this site.</p>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
