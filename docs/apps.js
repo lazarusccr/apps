@@ -128,7 +128,7 @@ var apps = [
     {
         name: 'Promet-ERP',
         description: 'Management system for contacts, messages, documents, orders and projects',
-        url: 'https://sourceforge.net/projects/prometerp/',
+        url: 'http://free-erp.de/wiki/Promet-ERP/index',
         icon: 'prometerp.png',
         tags: ''
     }
