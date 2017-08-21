@@ -24,7 +24,7 @@
                 <input spellcheck="false" ng-model="ac.search" ng-change="ac.filter()">
             </md-input-container>
             <md-list flex>
-                <a href="{{app.url}}" style="text-decoration: none;" ng-repeat="app in ac.apps_filtered">
+                <a href="{{app.url}}" style="text-decoration: none;" ng-repeat="app in ac.apps_filtered" ng-cloak>
                     <md-list-item class="md-2-line" ng-click="nil">
                         <img ng-src="./{{app.icon}}" err-src="./lazarus.png" class="md-avatar" style="width: 60px; height: 60px; border-radius: 0px;"
                             alt="{{app.name}}" />
