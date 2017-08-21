@@ -96,6 +96,41 @@ var apps = [
         url: 'http://ovoplayer.altervista.org/home',
         icon: 'ovoplayer.png',
         tags: 'multimedia, audio, sound'
+    },
+    {
+        name: 'ZCAD',
+        description: 'Simple CAD program with dxf2000 file format support',
+        url: 'https://sourceforge.net/projects/zcad/',
+        icon: 'zcad.png',
+        tags: 'industrial, 3d, 2d'
+    },
+    {
+        name: 'Sky Chart',
+        description: 'Draw chart of the night sky for the amateur astronomer from a bunch of stars and nebulae catalogs',
+        url: 'https://sourceforge.net/projects/skychart/',
+        icon: 'skychart.png',
+        tags: ''
+    },
+    {
+        name: 'Virtual Moon Atlas',
+        description: 'Moon observation and survey, let you visualize the real Moon aspect at every time',
+        url: 'https://sourceforge.net/projects/virtualmoon/',
+        icon: 'virtualmoonatlas.png',
+        tags: ''
+    },
+    {
+        name: 'Virtual Planet Atlas',
+        description: 'Visualize any planet aspect at any time',
+        url: 'https://sourceforge.net/projects/virtualplanet/',
+        icon: 'virtualplanetatlas.png',
+        tags: ''
+    },
+    {
+        name: 'Promet-ERP',
+        description: 'Management system for contacts, messages, documents, orders and projects',
+        url: 'https://sourceforge.net/projects/prometerp/',
+        icon: 'prometerp.png',
+        tags: ''
     }
 ]
 

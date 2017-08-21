@@ -3,7 +3,7 @@
     app.config(function ($mdThemingProvider) {
         $mdThemingProvider.theme('default')
             .primaryPalette('deep-purple')
-            .accentPalette('orange');
+            .accentPalette('indigo');
     });
     app.directive('errSrc', function () {
         return {
@@ -20,11 +20,6 @@
         // from apps.js
         this.apps = apps;
         this.apps_filtered = this.apps.slice();
-
-        this.open = function(url) {
-            document.location = url;
-        }
-
         this.filter = function() {
             if (this.search == "") {
                 this.apps_filtered = this.apps.slice();

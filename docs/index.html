@@ -24,13 +24,16 @@
                 <input spellcheck="false" ng-model="ac.search" ng-change="ac.filter()">
             </md-input-container>
             <md-list flex>
-                <md-list-item class="md-2-line" ng-click="ac.open(app.url)" ng-repeat="app in ac.apps_filtered">
-                    <img ng-src="./{{app.icon}}" err-src="./lazarus.png" class="md-avatar" style="width: 60px; height: 60px; border-radius: 0px;" alt="{{app.name}}" />
-                    <div class="md-list-item-text">
-                        <h3>{{app.name}}</h3>
-                        <p>{{app.description}}</p>
-                    </div>
-                </md-list-item>
+                <a href="{{app.url}}" style="text-decoration: none;" ng-repeat="app in ac.apps_filtered">
+                    <md-list-item class="md-2-line" ng-click="nil">
+                        <img ng-src="./{{app.icon}}" err-src="./lazarus.png" class="md-avatar" style="width: 60px; height: 60px; border-radius: 0px;"
+                            alt="{{app.name}}" />
+                        <div class="md-list-item-text">
+                            <h3>{{app.name}}</h3>
+                            <p>{{app.description}}</p>
+                        </div>
+                    </md-list-item>
+                </a>
             </md-list>
         </md-content>
     </div>
