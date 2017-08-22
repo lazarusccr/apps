@@ -131,6 +131,20 @@ document.apps = [
         url: 'http://free-erp.de/wiki/Promet-ERP/index',
         icon: 'prometerp.png',
         tags: ''
+    },
+    {
+        name: 'Eschecs',
+        description: 'Chess game',
+        url: 'http://www.eschecs.fr/',
+        icon: 'eschecs.png',
+        tags: ''
+    },
+    {
+        name: 'Stimulus Control',
+        description: 'A teaching machine for free behavioral experiments',
+        url: 'https://github.com/cpicanco/stimulus_control',
+        icon: 'stimuluscontrol.png',
+        tags: ''
     }
 ].sort(function (a, b) {
     if (a.name > b.name)
