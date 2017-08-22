@@ -18,11 +18,11 @@
     });
     app.controller('AppsController', function () {
         // from apps.js
-        this.apps = document.apps.slice(0, -1);
-        this.apps_filtered = this.apps.slice(0, -1);
+        this.apps = document.apps.slice();
+        this.apps_filtered = this.apps.slice();
         this.filter = function() {
             if (this.search == "") {
-                this.apps_filtered = this.apps.slice(0, -1);
+                this.apps_filtered = this.apps.slice();
                 return;
             }
             this.apps_filtered = [];
