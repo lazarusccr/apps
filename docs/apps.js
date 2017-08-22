@@ -1,4 +1,4 @@
-var apps = [
+document.apps = [
     {
         name: 'LazPaint',
         description: 'Raster image editor with layers, tools and filters',
@@ -132,9 +132,7 @@ var apps = [
         icon: 'prometerp.png',
         tags: ''
     }
-]
-
-apps.sort((a, b) => {
+].sort(function (a, b) {
     if (a.name > b.name)
         return 1
     if (a.name < b.name)
