@@ -145,6 +145,119 @@ document.apps = [
         url: 'https://github.com/cpicanco/stimulus_control',
         icon: 'stimuluscontrol.png',
         tags: ''
+    },
+    // ToDo: add icons for the next listed apps
+    {
+        name: 'CPickSniff',
+        description: 'Color picker and sniffer',
+        url: 'https://sourceforge.net/projects/cpicksniff2/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'GLScript',
+        description: 'Script interpreter for developing 3D games',
+        url: 'https://sourceforge.net/projects/glscript/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'KSP Sound Player',
+        description: 'Audio player supporting multiple file formats and features like dynamic playlists, bookmarking or network streaming',
+        url: 'https://code.google.com/archive/p/kspnew/downloads',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'LazAudioPlayer',
+        description: 'Simple mp3 player',
+        url: 'https://sourceforge.net/projects/lazaudioplayer/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'LazPlayer',
+        description: 'Simple mp3 player',
+        url: 'https://sourceforge.net/projects/lazplayer/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'miXimum',
+        description: 'Plays and mixes wav, mp*, ogg and mod audio files',
+        url: 'https://sites.google.com/site/fiensprototyping/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'Music Player by Freebyte.com',
+        description: 'No-frills music player that supports MP3, Wav, OGG and AIFF files',
+        url: 'http://www.freebyte.com/music_player/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'OggBase',
+        description: 'Manage your Ogg-Vorbis files in a Database',
+        url: 'http://sourceforge.net/projects/oggbase/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'Pi Vision',
+        description: 'Graphical User Interface for the Raspberry Pi Camera',
+        url: 'https://github.com/local-vision/Pi-Vision',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'PicturesToExe',
+        description: 'Create professional slideshows',
+        url: 'https://www.wnsoft.com/en/picturestoexe/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'tonopol-trainer',
+        description: 'Music-analyzer and trainer for musicans',
+        url: 'https://sourceforge.net/projects/tonopoltrainer/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'Web Player Creator',
+        description: 'Static HTML5 and Flash auto creating structure with support of OGG, MP3, WMA',
+        url: 'https://bitbucket.org/matthieugiroux/lazarus-html-5-static-web-audio-player-creator-for-best/downloads/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'WinFF',
+        description: 'GUI for the command line video converter, FFMPEG',
+        url: 'http://www.biggmatt.com/winff/',
+        icon: 'lazarus.png',
+        tags: 'multimedia'
+    },
+    {
+        name: 'Castle Game Engine',
+        description: '3D and 2D game engine',
+        url: 'https://castle-engine.sourceforge.io/',
+        icon: 'lazarus.png',
+        tags: 'games'
+    },
+    {
+        name: 'Dreams of a Geisha',
+        description: 'Take a journey through the magical and wonderful world of Geisha',
+        url: 'http://www.greensaucegames.com/dreams-of-a-geisha',
+        icon: 'lazarus.png',
+        tags: 'games'
+    },
+    {
+        name: 'Retro Ski Run',
+        description: 'Game written for very simple playability and competition',
+        url: 'https://sourceforge.net/projects/retroskirun/',
+        icon: 'lazarus.png',
+        tags: 'games'
     }
 ].sort(function (a, b) {
     if (a.name > b.name)
