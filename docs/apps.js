@@ -42,6 +42,13 @@ document.apps = [
         tags: 'money'
     },
     {
+        name: 'Coedit',
+        description: 'An IDE for the D programming language, its compilers, tools and libraries',
+        url: 'https://github.com/BBasile/Coedit',
+        icon: 'coedit.png',
+        tags: 'code, development, editor, dlang'
+    },
+    {
         name: 'CudaText',
         description: 'Text editor with syntax highlighting and code completion',
         url: 'http://uvviewsoft.com/cudatext/',
