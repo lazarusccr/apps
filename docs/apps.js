@@ -258,6 +258,13 @@ document.apps = [
         url: 'https://sourceforge.net/projects/retroskirun/',
         icon: 'lazarus.png',
         tags: 'games'
+    },
+    {
+        name: 'SubzBor',
+        description: 'Free subtitle cutting tool with the help of FFmpeg and MKVToolNix. supports srt ass ssa vtt smi stl sub and sup.',
+        url: 'https://github.com/m-audio91/SubzBor',
+        icon: 'subzbor.png',
+        tags: 'multimedia, subtitle, cut'
     }
 ].sort(function (a, b) {
     if (a.name > b.name)
